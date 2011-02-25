@@ -1,7 +1,8 @@
 var randomclik = randomclik || {};
 
-randomclik.go = function(url) {
+randomclik.go = function(url, webRoverId) {
+    console.log("Going to navigate to here '" + url + "' in web rover iFrame [" + webRoverId +"]");
 
-    console.log("Going to navigate to here '" + url + "'");
-
+    var webRoverIFrameElement = document.getElementById(webRoverId);
+    webRoverIFrameElement.src = url;
 }
