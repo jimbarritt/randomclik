@@ -273,6 +273,13 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="jim">
+      <words>
+        <w>randomclik</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state />
@@ -285,6 +292,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/randomclik-web.iml" filepath="$PROJECT_DIR$/randomclik-web.iml" />
     </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="Ruby SDK 1.8.7" project-jdk-type="RUBY_SDK">
     <output url="file://$PROJECT_DIR$/out" />
