@@ -1,22 +1,25 @@
 <html>
 
-    <head>
-        <link rel="stylesheet" type="text/css" href="./css/theme.css" />
-        <script type="text/javascript" src="./js/randomclik.js"></script>
-    </head>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/theme.css"/>
+    <script type="text/javascript" src="./js/randomclik.js"></script>
+</head>
 
-    <body>
-        <h1>Welcome to RandomClik</h1>
+<body>
 
-        <p>Please enter a url to begin at</p>
+<div id="missionControl">
+    <form id="launchPad" action="javascript:">
 
-        <form id="launchPad" action="javascript:" >
+        <input type="text" name="startUrl" value="http://thoughtworks.com"/>
+        <input type="button" onclick="javascript:randomclik.go(this.form.startUrl.value);" value="GO!"/>
 
-            <input type="text" name="startUrl" value="http://thoughtworks.com" />
-            <input type="button" onclick="javascript:randomclik.go(this);" value="GO!"/>
+    </form>
+</div>
 
-        </form>
+<iframe id="webRover">
+    <p>Here will be the results</p>
+</iframe>
 
-    </body>
+</body>
 
 </html>
